@@ -15,5 +15,5 @@ logging.basicConfig(
 )
 
 # TEST
-# if __name__ == "__main__":
-#     logging.info("Logging initialized.")
+if __name__ == "__main__":
+    logging.info("Logging initialized.")
