@@ -13,7 +13,7 @@ from sklearn.preprocessing import OneHotEncoder,StandardScaler
 
 @dataclass
 class DataTransformationConfig:
-    preprocessor_obj_filepath=os.path.join('artifacts','preprocessor.pkl')
+    preprocessor_obj_filepath=os.path.join('artefacts','preprocessor.pkl')
 
 class DataTransformation:
     def __init__(self):
